@@ -39,13 +39,14 @@ If you have any questions during the way (and you should), please ask on Slack, 
 
 
 ## Week 2
-1. Use your existing project. Go to your project folder and pull changes from git. This will replace all files with the new ones from the lecture. It will also replace the DB dump. Please import it to your MySQL.
+1. Use your existing project. Go to your project folder and pull changes from git. This will replace all files with the new ones that we did in the lecture. It will also replace the DB dump. Please import it to your MySQL.
+1.2 For this execise you will need some assets. I have attached assets for this section in the `assets-week-2` folder. You do not have to fork and clone the repo, as you already did that. Instead, this is what "Download ZIP" button serves for. If you click that, you will get a zip containing all current files, so you can easily copy assets to your project.
 
 **Verify that website works as it did in the lecture. If you encounter any issues in this segment, make sure to contact your colleagues or professors for help and additional explanations.**
 
 2. Look at the comments made on the Code Review in your Pull Request. If there is anything left unsolved, please solve it.
 3. Create a new empty template from scratch. Name it Assignment1. You can find additional instructions and information on the [Wordpress Codex](https://codex.wordpress.org/Theme_Development)
-3.5 Add the screenshot to your newly created theme, like we did in the class. Verify that WP Admin is really showing it on the themes screen. You can find the attached screenshot under the name `netscape-image.jpg` in the `assets-week-2` folder.
+3.2 Add the screenshot to your newly created theme, like we did in the class. Verify that WP Admin is really showing it on the themes screen. You can find the attached screenshot under the name `netscape-image.jpg` in the `assets-week-2` folder.
 4. Implement the index page like we did in the class. You can find the HTML template attached in the `assets-week-2` folder.
 5. Split the newly created template into header, index and footer. Like we did in class today.
 6. Go into WP admin to create a new Page named `Home Page`, with 3 sentences of welcome text.
