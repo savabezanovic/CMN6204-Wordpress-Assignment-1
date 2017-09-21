@@ -37,4 +37,21 @@ If you have any questions during the way (and you should), please ask on Slack, 
 15. Create a database backup as an SQL file, and save it to the project root folder under the name - (current date) '14.09.2017'. If you have any problems with this segment, ask on Slack. It should be fairly easy to accomplish from phpMyAdmin console.
 16. Commit all changes and open up a pull request aimed at the original SAE repository on GitHub.
 
+
+## Week 2
+1. Use your existing project. Go to your project folder and pull changes from git. This will replace all files with the new ones from the lecture. It will also replace the DB dump. Please import it to your MySQL.
+
+**Verify that website works as it did in the lecture. If you encounter any issues in this segment, make sure to contact your colleagues or professors for help and additional explanations.**
+
+2. Look at the comments made on the Code Review in your Pull Request. If there is anything left unsolved, please solve it.
+3. Create a new empty template from scratch. Name it Assignment1. You can find additional instructions and information on the [Wordpress Codex](https://codex.wordpress.org/Theme_Development)
+4. Implement the index page like we did in the class. You can find the HTML template attached in the `html-week-2` folder.
+5. Split the newly created template into header, index and footer. Like we did in class today.
+6. Go into WP admin to create a new Page named `Home Page`, with 3 sentences of welcome text.
+7. Find a way, how to assign this particular page to be the static Home page. (hint:settings)
+8. Find a way, how to change the template header title, so that it always shows Site title. The one that you can change in `WPAdmin > Settings > General`.
+9. Find a way to do the same thing but using both site title and site tagline, like this > `Site Title ~ Site tagline`.
+10. Add, commit and push all your changes to git. Export the database, replace the old backup and commit that also.
+
+
 Rejoice, Hooray!
